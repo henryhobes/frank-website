@@ -180,6 +180,24 @@ article hr {
   margin: 2.5rem 0;
 }
 
+/* Avatar */
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+  border: 2px solid var(--border);
+}
+
+@media (max-width: 480px) {
+  .avatar {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+}
+
 /* Back link */
 .back {
   display: inline-block;
