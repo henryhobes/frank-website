@@ -97,6 +97,23 @@ nav a:hover {
   color: var(--text);
 }
 
+/* Mobile nav - vertical list */
+@media (max-width: 520px) {
+  nav {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    border: none;
+    border-left: 2px solid var(--border);
+    padding-left: 1rem;
+  }
+  
+  nav a {
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+  }
+}
+
 /* Intro */
 .intro {
   font-size: 1.05rem;
