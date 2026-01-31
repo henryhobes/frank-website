@@ -105,6 +105,7 @@ nav a:hover {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    flex-wrap: nowrap;
   }
   
   nav::-webkit-scrollbar {
@@ -112,9 +113,9 @@ nav a:hover {
   }
   
   nav a {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     white-space: nowrap;
-    padding: 0 0.5rem;
+    padding: 0 0.4rem;
     border-right: 1px solid var(--border);
   }
   
@@ -252,10 +253,5 @@ article hr {
   
   h1 {
     font-size: 2rem;
-  }
-  
-  nav {
-    flex-wrap: wrap;
-    gap: 1rem;
   }
 }
